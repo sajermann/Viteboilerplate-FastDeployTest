@@ -3,9 +3,9 @@ services:
     container_name: ViteBoilerplate
     restart: always
     build: .
-#     networks:
-#       - fast-deploy
-# networks:
-#   fast-deploy:
-#     driver: bridge
-#     name: fast-deploy
+    networks:
+      - fast-deploy
+networks:
+  fast-deploy:
+    driver: bridge
+    name: fast-deploy
