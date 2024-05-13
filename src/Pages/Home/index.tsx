@@ -36,6 +36,7 @@ export default function Home() {
 			<h1 className={styles.heading}>
 				{translate('WELCOME_TO_VITE_BOILERPLATE')} - {translate('TODO_LIST')}
 			</h1>
+			<span>Bruno Sajermann</span>
 			<form onSubmit={addToList} className={styles.form}>
 				<input
 					disabled={isLoading}
